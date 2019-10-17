@@ -1,0 +1,29 @@
+CREATE STATEMENTS
+
+CREATE TABLE "Customers" (
+	"CustomerID"	INTEGER,
+	"Name"	TEXT,
+	"Phone"	INTEGER,
+	"Address"	TEXT
+)
+
+CREATE TABLE "Products" (
+	"ProductId"	INTEGER,
+	"Name"	TEXT,
+	"Price"	INTEGER,
+	"Quantity"	INTEGER
+)
+
+CREATE TABLE "Purchases" (
+	"PurchaseID"	INTEGER,
+	"CustomerID"	INTEGER,
+	"ProductID"	INTEGER,
+	"Price"	INTEGER,
+	"Quantity"	INTEGER,
+	"Cost"	INTEGER,
+	"Tax"	INTEGER,
+	"Total"	INTEGER,
+	"Date"	TEXT
+)
+
+INSERT STATEMENTS ARE HANDLED BY JAVA APPLET
